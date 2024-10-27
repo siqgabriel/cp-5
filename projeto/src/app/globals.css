@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-stars-pattern {
+  background-image: radial-gradient(white 0.5px, transparent 0.5px), radial-gradient(white 1px, transparent 1px), radial-gradient(white 1.5px, transparent 1.5px);
+  background-size: 20px 20px, 40px 40px, 60px 60px;
+  background-position: 0 0, 10px 10px, 20px 20px;
+}
